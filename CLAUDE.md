@@ -6,6 +6,13 @@ Responda sempre em português do Brasil.
 ## Palavra-chave: "Servidor Celular"
 Quando o usuário disser **Servidor Celular**, faça sem perguntar: `git pull`; leia docs/ROADMAP.md, as últimas entradas de docs/LOG.md e docs/APRENDIZADOS.md; rode `ferramentas\verificar.ps1`; e mostre um resumo curto (onde parou, o que falta, próximo passo). Depois continue o roadmap, a menos que ele peça outra coisa.
 
+## Aparelhos da rede (Wi-Fi 192.168.15.x)
+Cadastro em rede/dispositivos.json; controle com `. .\rede\rede.ps1` (Listar, Conectar, Executar, Termux, Enviar, Tela, FixarAdb, Adicionar). Comando: /dispositivos.
+- celular-servidor 192.168.15.18 (Termux, Taikazet) · celular-pessoal 192.168.15.4 · pc-principal 192.168.15.11 · notebook-promac 192.168.15.10
+- Prefira Wi-Fi a USB. Para o celular-servidor, prefira SSH do Termux (`ssh -p 8022 192.168.15.18`) a `adb forward`.
+- Quando o usuário informar um IP novo: cadastre com Adicionar, prepare o acesso, teste, commit + push.
+- Vale também para novos projetos: este cadastro é reutilizável (copie a pasta rede/).
+
 ## Este repositório é o acervo do projeto (Servidor-Celular)
 Repositório: github.com/brunocesarmrosa-rgb/Servidor-Celular. É a fonte única de verdade entre todos os PCs.
 - **Ao iniciar qualquer sessão:** `git pull`. Leia docs/LOG.md (últimas entradas) e docs/ROADMAP.md antes de agir.
@@ -52,7 +59,7 @@ Celular Android (Termux): ponte_supabase.py + bot_telegram.py → agente.py → 
 - `site/taikazet-widget.js` — widget para colar no site.
 
 ## Comandos disponíveis (slash commands)
-`/ferramentas` `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
+`/ferramentas` `/dispositivos` `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
 
 ## Regras
 - Nunca exponha a porta 8080. Nunca coloque a chave da API no código do site em texto aberto além do necessário (é uma chave pública de baixa permissão + rate limit + allowlist de origem).

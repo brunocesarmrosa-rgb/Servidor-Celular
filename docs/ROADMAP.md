@@ -3,6 +3,10 @@
 ## Fase 0 — Ferramentas
 - [ ] Rodar ferramentas\verificar.ps1 e instalar o que faltar
 
+## Fase 0.5 — Rede
+- [ ] Preparar acesso Wi-Fi (rede/preparar-acesso.md) e testar `Listar`/`Conectar`
+- [ ] Reservar IPs fixos no roteador
+
 ## Fase 1 — Agente local no celular
 - [ ] Conectar celular (USB/adb) e SSH no Termux
 - [ ] Corrigir espelho do Termux e instalar llama-cpp

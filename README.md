@@ -10,7 +10,7 @@ claude
 ```
 Depois cole o conteúdo de `PROMPT-INICIAL.txt`. Nas próximas vezes basta abrir o `claude` na pasta e dizer **Servidor Celular**.
 
-Comandos: `/ferramentas` `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
+Comandos: `/ferramentas` `/dispositivos` `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
 
 Ferramentas: `docs/FERRAMENTAS.md` (tudo o que usamos, como instalar e executar).
 

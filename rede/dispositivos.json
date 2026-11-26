@@ -1,0 +1,9 @@
+{
+  "rede": "192.168.15.0/24",
+  "dispositivos": [
+    {"nome": "pc-principal",     "ip": "192.168.15.11", "tipo": "windows", "acesso": ["local"],          "obs": "PC onde o Claude Code costuma rodar"},
+    {"nome": "notebook-promac",  "ip": "192.168.15.10", "tipo": "windows", "acesso": ["ssh"],            "ssh_porta": 22, "obs": "confirmar se é Windows ou macOS"},
+    {"nome": "celular-pessoal",  "ip": "192.168.15.4",  "tipo": "android", "acesso": ["adb"],            "adb_porta": 5555},
+    {"nome": "celular-servidor", "ip": "192.168.15.18", "tipo": "android", "acesso": ["adb", "ssh"],     "adb_porta": 5555, "ssh_porta": 8022, "obs": "Galaxy M13 com Termux — roda o Taikazet"}
+  ]
+}
