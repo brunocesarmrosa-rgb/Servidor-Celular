@@ -3,3 +3,4 @@
 - 26/11/2026: colar comandos no Termux pela área de transferência via scrcpy é instável (chegou a colar o clipboard do PC). Use `adb shell input text` ou SSH.
 - 26/11/2026: um PC tinha um proxy desconhecido ("9Router", porta 20128) em ~/.claude/settings.json interceptando o Claude Code. Sempre conferir `/status`: não deve haver "Anthropic base URL".
 - O celular já roda um "SERVIDOR CELULAR" com bot Telegram próprio: não alterar.
+- 26/11/2026: no notebook-promac, Add-WindowsCapability -Name OpenSSH.Server~~~~0.0.1.0 falhou com "não foi possível encontrar os arquivos de origem". Ao rodar de novo com o serviço wuauserv iniciado, a instalação funcionou. Se falhar de novo: conferir internet e política WSUS (HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate) ou usar winget (Microsoft.OpenSSH.Preview).
