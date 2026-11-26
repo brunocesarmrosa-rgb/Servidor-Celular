@@ -3,3 +3,4 @@
 - 26/11/2026 — Adicionado catálogo de ferramentas (docs/FERRAMENTAS.md) e scripts de setup/verificação.
 - 26/11/2026 — Palavra-chave "Servidor Celular" definida (retoma o projeto automaticamente).
 - 26/11/2026 — Cadastro de aparelhos da rede (rede/) com controle por Wi-Fi (ADB/SSH).
+- 26/11/2026 — notebook-promac confirmado como Windows.
