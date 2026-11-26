@@ -32,6 +32,7 @@ Repositório: github.com/brunocesarmrosa-rgb/Servidor-Celular. É a fonte única
 - O modelo, a ponte, o bot e o vigia rodam SÓ no celular. Os PCs servem apenas para instalar/atualizar/consultar via SSH — nunca rodar modelo, gateway ou proxy no PC.
 - Depois de instalado, o serviço deve funcionar com todos os PCs DESLIGADOS (Termux:Boot + vigia.sh). Teste isso antes de dar por concluído.
 - Acesso padrão: `ssh -p 8022 192.168.15.18` (Wi-Fi). USB/adb forward só no primeiro setup.
+- Papéis: os COMANDOS partem dos outros aparelhos (pc-principal, notebook-promac, celular-pessoal); o celular-servidor apenas EXECUTA e, depois de instalado, a IA dele RESPONDE. O SSH Server fica ligado nos PCs (decisão do dono, 26/11/2026) para que se administrem entre si.
 
 ## Arquitetura (agente local, online para serviços externos)
 ```
