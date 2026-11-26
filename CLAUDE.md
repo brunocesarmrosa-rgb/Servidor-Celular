@@ -28,6 +28,11 @@ Repositório: github.com/brunocesarmrosa-rgb/Servidor-Celular. É a fonte única
 - Modo de trabalho: o dono pediu AUTONOMIA TOTAL. Tome as decisões, não pergunte; só peça ação física quando for impossível sem ela (ex.: aceitar aviso na tela). Ao final, entregue em docs/RELATORIO.md: o que foi feito, como testar, URLs e chave.
 - Comunicação site↔celular: preferir o modelo "caixa de correio" (Supabase gratuito, celular só faz conexões de saída). Se não houver conta/credencial disponível, deixe o gateway rodando, testado via `adb forward tcp:8787 tcp:8787`, e descreva no relatório o único passo pendente.
 
+## Regra de ouro: TODO o processamento no celular-servidor (192.168.15.18)
+- O modelo, a ponte, o bot e o vigia rodam SÓ no celular. Os PCs servem apenas para instalar/atualizar/consultar via SSH — nunca rodar modelo, gateway ou proxy no PC.
+- Depois de instalado, o serviço deve funcionar com todos os PCs DESLIGADOS (Termux:Boot + vigia.sh). Teste isso antes de dar por concluído.
+- Acesso padrão: `ssh -p 8022 192.168.15.18` (Wi-Fi). USB/adb forward só no primeiro setup.
+
 ## Arquitetura (agente local, online para serviços externos)
 ```
 Site / API externa / Telegram

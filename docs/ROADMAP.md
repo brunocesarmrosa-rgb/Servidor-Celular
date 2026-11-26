@@ -17,6 +17,7 @@
 - [ ] Criar projeto Supabase e aplicar supabase/schema.sql
 - [ ] Ponte celular ↔ Supabase rodando e testada ponta a ponta
 - [ ] Vigia + Termux:Boot (volta sozinho após reiniciar)
+- [ ] Teste com todos os PCs desligados: pergunta via API → resposta do celular
 - [ ] Documentar API em docs/API.md
 
 ## Fase 3 — Site e canais
