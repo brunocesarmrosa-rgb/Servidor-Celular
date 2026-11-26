@@ -1,0 +1,1 @@
+Atualize gateway/catalog.json com os produtos reais do site. Pergunte ao usuário a fonte (CSV, exportação da loja, URL de feed). Converta para o formato [{id,nome,categoria,preco,tags,url}], valide o JSON, envie com scp e reinicie só o gateway (`pkill -f gateway/server.py` e start.sh). Não precisa reiniciar o modelo.

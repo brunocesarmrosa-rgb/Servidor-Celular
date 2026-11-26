@@ -1,0 +1,1 @@
+Ative o bot do Telegram (opcional). Se não existir TELEGRAM_TOKEN no config.env, peça ao usuário para criar um bot no @BotFather (/newbot) e colar o token — único passo manual. ATENÇÃO: o celular já tem um bot Telegram próprio rodando; use um token DIFERENTE e não mexa no existente. Grave o token, envie o config.env, reinicie e teste mandando /start ao bot.

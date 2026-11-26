@@ -1,0 +1,4 @@
+[
+  {"id": "P001", "nome": "Produto exemplo A", "categoria": "Categoria 1", "preco": 99.9, "tags": ["presente", "básico"], "url": "https://seusite.com.br/p/a"},
+  {"id": "P002", "nome": "Produto exemplo B", "categoria": "Categoria 2", "preco": 149.0, "tags": ["premium"], "url": "https://seusite.com.br/p/b"}
+]

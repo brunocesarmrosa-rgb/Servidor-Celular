@@ -1,0 +1,5 @@
+config.env
+logs/
+models/
+*.gguf
+__pycache__/
