@@ -8,7 +8,7 @@
 - [ ] Reservar IPs fixos no roteador
 
 ## Fase 1 — Agente local no celular
-- [ ] Conectar celular (USB/adb) e SSH no Termux
+- [x] Conectar celular (USB/adb) e SSH no Termux (feito em 26/11/2026 via adb forward 8022)
 - [ ] Corrigir espelho do Termux e instalar llama-cpp
 - [ ] Baixar modelo (Qwen2.5 0.5B) e subir llama-server
 - [ ] Testar resposta local (adb forward 8787)

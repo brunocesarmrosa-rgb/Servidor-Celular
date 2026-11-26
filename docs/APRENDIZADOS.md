@@ -4,3 +4,5 @@
 - 26/11/2026: um PC tinha um proxy desconhecido ("9Router", porta 20128) em ~/.claude/settings.json interceptando o Claude Code. Sempre conferir `/status`: não deve haver "Anthropic base URL".
 - O celular já roda um "SERVIDOR CELULAR" com bot Telegram próprio: não alterar.
 - 26/11/2026: no notebook-promac, Add-WindowsCapability -Name OpenSSH.Server~~~~0.0.1.0 falhou com "não foi possível encontrar os arquivos de origem". Ao rodar de novo com o serviço wuauserv iniciado, a instalação funcionou. Se falhar de novo: conferir internet e política WSUS (HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate) ou usar winget (Microsoft.OpenSSH.Preview).
+- 26/11/2026: no Termux, `whoami` não existe (falta coreutils) e `$USER` vem vazio. Para descobrir o usuário Termux use `id -un`. O sshd do Termux ignora o nome de usuário e entra sempre no mesmo usuário, então `ssh -p 8022 localhost` basta.
+- 26/11/2026: `ssh -p 8022 localhost` sem o adb forward ativo cai no sshd do próprio notebook (prompt `promac\...`), não no celular. Confira sempre o prompt: deve aparecer o usuário do Termux (`u0_...`).
