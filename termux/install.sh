@@ -13,9 +13,9 @@ pkg install -y python wget curl openssh termux-api jq
 pkg install -y llama-cpp || {
   echo "Pacote llama-cpp indisponível, compilando..."
   pkg install -y git cmake clang
-  git clone --depth 1 https://github.com/ggml-org/llama.cpp ~/llama.cpp
+  [ -d ~/llama.cpp ] || git clone --depth 1 https://github.com/ggml-org/llama.cpp ~/llama.cpp
   cmake -S ~/llama.cpp -B ~/llama.cpp/build -DLLAMA_CURL=OFF
-  cmake --build ~/llama.cpp/build --config Release -j"$(nproc)" --target llama-server
+  cmake --build ~/llama.cpp/build --config Release -j2 --target llama-server
   ln -sf ~/llama.cpp/build/bin/llama-server "$PREFIX/bin/llama-server"
 }
 
