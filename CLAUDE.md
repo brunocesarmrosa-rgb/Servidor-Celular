@@ -3,6 +3,9 @@
 Você (Claude Code) é o operador deste projeto. Rode no PC do dono, que está na mesma rede Wi-Fi do celular Android.
 Responda sempre em português do Brasil.
 
+## Palavra-chave: "Servidor Celular"
+Quando o usuário disser **Servidor Celular**, faça sem perguntar: `git pull`; leia docs/ROADMAP.md, as últimas entradas de docs/LOG.md e docs/APRENDIZADOS.md; rode `ferramentas\verificar.ps1`; e mostre um resumo curto (onde parou, o que falta, próximo passo). Depois continue o roadmap, a menos que ele peça outra coisa.
+
 ## Este repositório é o acervo do projeto (Servidor-Celular)
 Repositório: github.com/brunocesarmrosa-rgb/Servidor-Celular. É a fonte única de verdade entre todos os PCs.
 - **Ao iniciar qualquer sessão:** `git pull`. Leia docs/LOG.md (últimas entradas) e docs/ROADMAP.md antes de agir.
