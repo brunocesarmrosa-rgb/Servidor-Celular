@@ -6,3 +6,7 @@
 - 26/11/2026 — notebook-promac confirmado como Windows.
 - 26/11/2026 — Regra: todo processamento só no celular-servidor 192.168.15.18; PCs apenas administram.
 - 26/11/2026 — Papéis definidos: PCs/celular pessoal enviam comandos; celular-servidor executa e (futuramente) a IA responde. SSH Server mantido nos PCs.
+- 26/11/2026 (tarde) — SSH Server iniciado no Termux (porta 8022, senha 123456). Repositório clonado em ~/taikazet.
+- 26/11/2026 (tarde) — Gateway Python em 127.0.0.1:8787 rodando e respondendo: `{"ok": true, "produtos": 2}`.
+- 26/11/2026 (tarde) — Compilação de llama.cpp falhou no ARM; usando gateway com mock por enquanto (Fase 1 parcial).
+- **Próximo**: Supabase bridge (Fase 2) + llama.cpp alternativo (versão pré-compilada ou arm64 específica).
