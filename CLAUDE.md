@@ -49,7 +49,7 @@ Celular Android (Termux): ponte_supabase.py + bot_telegram.py → agente.py → 
 - `site/taikazet-widget.js` — widget para colar no site.
 
 ## Comandos disponíveis (slash commands)
-`/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
+`/ferramentas` `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
 
 ## Regras
 - Nunca exponha a porta 8080. Nunca coloque a chave da API no código do site em texto aberto além do necessário (é uma chave pública de baixa permissão + rate limit + allowlist de origem).

@@ -10,6 +10,8 @@ claude
 ```
 Depois cole o conteúdo de `PROMPT-INICIAL.txt`. Nas próximas vezes basta `git pull` + `claude` e pedir "continue o roadmap".
 
-Comandos: `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
+Comandos: `/ferramentas` `/conectar` `/instalar` `/iniciar` `/supabase` `/telegram` `/testar` `/catalogo` `/integrar-site` `/status` `/parar`
+
+Ferramentas: `docs/FERRAMENTAS.md` (tudo o que usamos, como instalar e executar).
 
 Docs: `docs/ROADMAP.md` (o que falta), `docs/LOG.md` (o que foi feito), `docs/APRENDIZADOS.md` (erros resolvidos), `docs/PROS-CONTRAS.md`.

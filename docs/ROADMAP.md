@@ -1,5 +1,8 @@
 # Roadmap — Taikazet / Servidor-Celular
 
+## Fase 0 — Ferramentas
+- [ ] Rodar ferramentas\verificar.ps1 e instalar o que faltar
+
 ## Fase 1 — Agente local no celular
 - [ ] Conectar celular (USB/adb) e SSH no Termux
 - [ ] Corrigir espelho do Termux e instalar llama-cpp
